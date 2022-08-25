@@ -1,6 +1,7 @@
-Introdução teórica ao Git / GitHub
+Introdução teórica/prática ao Git / GitHub
 - Comandos básicos de nagevação de terminal (Windown / Linux)
 - Apresentação ao Git, entendendo a sua fundação/criação
 - Entendendo a lógica por trás do funcionamento do Git
-- Comndos básicos para uso no terminal do Git (Git Bash)
+- Comandos básicos para uso no terminal do Git (Git Bash)
 - Introdução ao GitHub - Criação de conta e de diretório
+- Entrega de projeto (cronologia de estudo do Database Experience)
