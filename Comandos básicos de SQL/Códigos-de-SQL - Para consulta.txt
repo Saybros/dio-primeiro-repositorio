@@ -1,0 +1,17 @@
+show databases;
+-- Mostra os databases criados em formato lista
+
+create database "nome do database";
+-- Cria um database novo
+
+drop database "nome do database"
+-- Deleta o database
+
+use "nome do database";
+-- Entra dentro do database
+
+show tables;
+-- Mostra as tabelas dentro do banco que está em uso
+
+insert into "tabela"
+-- Insere valores na tabela selecionada

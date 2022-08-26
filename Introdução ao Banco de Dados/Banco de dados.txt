@@ -1,0 +1,110 @@
+Cenário de dados
+-Dados - informação isolada, sem contexto, sem sentido, diamante bruto (precisa ser lapidado)
+-Informação - Dados com informações relevantes, insight's.
+
+SGBD - Restrição de acesso (Acessar a conta sua, não de outros)
+
+Banco de dados - Conjunto de dados relacionados que transmitem informação
+SGBD - Conjunto de BD
+
+Forma que os dados são requisitados ao BD (API)
+Ações implicam em mudança de estado (Confiável / Acurado) 
+manutenção e tamanho coerente com a complexidade do negócio
+
+SGBD - Gerenciamento dos dados
+Definição - Tipo de dados / Estrutura / Constrains
+Contrução - Inserção de dados
+Manipulação - Recuperação de infos / Geração de Relatórios / Query
+Compartilhamento - Simultaneidade / Acesso
+
+Ações que geram transações, que geram query/consultas (solicitações) e isso te retorna as informações
+
+Exemplo
+Fase Definição (Estudantes, Cursos, Seção, Pré-requisitos, Report da grade)
+	Tipo de dado (Cada tipo de dado, é representado de uma forma)
+	Metadados (Estrutura de um BD, informações que fornecem uma descrição consisa dos dados contidos no BD)
+	
+Fase Construção (Arquivos, construção dos arquivos para os dados)
+
+Fase Manipulação
+	Query
+	Updates
+
+Fase Compartilhamento
+	Por padrão o BD realiza o bloqueio e a liberação das tabelas (verificação de acesso)
+
+BD Modelo - Relacional
+DBA (Definição das tabelas e as constrains para dados) - Comandos traduzidos pelo processador LDD (Linguagem de Definição de Dados)
+Tradução > Mecanismo de Execução > Gerenciador > Metadados e Schema e depois retornar a solicitação
+
+Usuário (Altera e extrai informação, Duráveis, Transações (Agrupamento para execução)
+
+Storage e Buffer
+Storage - Movimentação
+Buffer - Troca de informações (na memória)
+
+é possivel a integração dos SGBD entre relacional e nocicle
+
+SGBD's mais utilizados no mercado (2022)
+1-Oracle - Pioneiro no mercado, alta escabilidade, manutenção, segurança
+2-MySQL - Código aberto (opensource), aplicação web usam ele geralmente, versatilidade
+3-SQL Server - + Abrangente, BI, aplicação crítica, integrações com excel
+4-PostgreSQL - Consolidado, 1º escolha voltados a python, código aberto (opensource)
+5-mongoDB - DB (NoSQL) - Dados em blocos, voltados a documentos
+6-redis - DB (NoSQL) - Voltado para valores, voltado pra agilidade, processamento
+
+
+A Era dos Dados - Futuro da Modelagem
+- Contexto Majoritário - Modelo relacional , sistemas corporativos, (min/max / count / média / soma)
+- Pesquisa Científica - mapeamento de dados não comercializaveis, não corporativos
+- 4º Paradigma - Instrumentos e simulações que geram grande volume de dados / Novo modelo: base na análise e exploração de dados (e-Ciência)
+	1º Paradigma - Experimento
+	2º Paradigma - Ciência Teórica
+	3º Paradigma - Ciência Computacional (empírico, teórico e computacional)
+	4º Paradigma - Data Driven Science (IA, Statistical learning, Data mining) - Ligado diretamente aos 3 V (Velocidade, Veracidade e Volume)
+	Experimentos realizados em larga escala
+	- Paralelismo - Multiplos processadores operando concorrentemente
+	- Big Data - Processamento paralelo de dados persistentes e particionados
+	- Cloud - Recursos de terceiros - Soluções de tecnologia como serviço
+HPC - High Performance Computing
+	- Nós de processamento
+	- Sistema de arquivos paralelos - sem persistência
+ 	- Modelos: MPI, OpenMP, OpenCL
+	- Acesso: HFF5 e NetCDF
+
+Novos cenários - Novas Tecnologias
+	Carreira Tech em Data
+	Data-drive
+	Novos modelos de SGBDs
+
+Engenheiro 
+	- Desenho / Construção
+	- Sustentação das soluções de dados
+Extração de dados de fontes heterogêneas
+Disponibilizar os dados para serem consumidos pelos analista e cientistas
+
+Cientistas
+	- Modelagem
+	- Recoonhecimento de padrões / Predição
+Busca responder perguntas atreladas ao contexto do negócio. Buscando insights através de técnicas de modelagem
+
+Analista
+	- Criação de dashboards
+	- Apresentação visual dos dados
+Busca entender o comportamento do negócio a partir dos dados. Realiza o diagnóstico, identifica possíveis motivos para comportamentos e verifica métricas
+
+Data-driven
+Área Estratégica - Gerenciamento, Marketing
+Customer Center - Análise, Interpretação
+
+Modelos NoSQL
+Documentos, Wide-colums, key-value, grafos, orientado a objetos
+
+DB & Cloud
+Amazon RDS
+Amazon Aurora
+Amazon Redshift
+SQL
+DynamoDB
+AzureDB
+

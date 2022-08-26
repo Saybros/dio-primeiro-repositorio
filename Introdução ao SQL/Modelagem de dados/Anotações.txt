@@ -1,0 +1,21 @@
+Modelar por que? Entendimento do conceito, do negócio que será aplicado
+
+Modelagem - Foco na descrição e relacionamento dos elementos que compõem a representação do contexto (mini-mundo)
+
+Modelagem - Processos
+1º - Mini-mundo (delimitando o contexto dos dados)
+2º - Alto nível (Requisitos para a criação do modelo)
+3º - Esquema (Definindo estrutura relacional)
+4º - SGBD (Implementando - criando o DB)
+O que é Esquema? - Facilita a compreensão do contexto dos dados que pode ser representada de 2 formas:
+-Entidade - Relacionamento
+-UML (Unified Modeling Language)
+
+Linguagem SQL - Linguagem declarativa
+create, alter,drop,select,insert,uptade ...
+
+
+
+
+
+

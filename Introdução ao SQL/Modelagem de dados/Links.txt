@@ -1,0 +1,5 @@
+https://www.mysql.com
+--Download do MySQL para Windows
+
+https://www.postgresql.org/download/windows/
+--Download do PostgreSQL para Windows
